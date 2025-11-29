@@ -73,7 +73,6 @@ Consultez la documentation interactive sur **`http://localhost:8000/docs`** apr�
 | `POST` | `/register` | Crée un nouvel utilisateur. | Publique |
 | `POST` | `/login` | Authentifie et émet le JWT. | Publique |
 | `POST` | `/translate` | Effectue la traduction. | Nécessite JWT |
-| `GET` | `/users/me` | Récupère les données de l'utilisateur actuel. | Nécessite JWT |
 
 ## 🐍 Développement Local (Sans Docker)
 
