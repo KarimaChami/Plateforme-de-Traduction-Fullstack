@@ -85,7 +85,7 @@ Pour lancer uniquement le Backend :
     # Installer les dépendances
     pip install -r requirements.txt
     
-    # Lancer le serveur (assurez-vous d'avoir configuré le .env)
+    # Lancer le serveur 
     uvicorn main:app --reload --host 0.0.0.0 --port 8000
     ```
 
